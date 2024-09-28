@@ -1,4 +1,5 @@
-def perform_operation(num1: float, num2: float, operation: str):
+
+def perform_operation(num1, num2, operation):
     
     if operation == "add":
         return num1 + num2
@@ -6,7 +7,7 @@ def perform_operation(num1: float, num2: float, operation: str):
         return num1 - num2
     elif operation == "multiply":
         return num1 * num2
-    elif operation == "division":
+    elif operation == "divide":
         if num2 == 0:
            return "Division by zero error"
         else:
