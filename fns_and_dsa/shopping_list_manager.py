@@ -47,8 +47,7 @@ def main():
                     print("\nShopping list")
                     for index, item in enumerate(shopping_list, start=1):
                         print(f"{index}. {item.capitalize()}")
-                        # print("Goodbye")
-                        # break
+                        
             elif choice == 4:
                 print("Goodbye!")
                 break
