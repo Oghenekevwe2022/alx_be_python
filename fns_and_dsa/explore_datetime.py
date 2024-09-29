@@ -23,3 +23,8 @@ def calculate_future_date():
         
     except ValueError:
         print("Please enter a valid integer for the number of days.")
+        
+# Main execution
+if __name__ == "__main__":
+    display_current_datetime() # Call to display the current date and time
+    calculate_future_date() # Call to calculate and display the future date
